@@ -11,5 +11,5 @@ import java.util.List;
 @AllArgsConstructor
 public class SendMessage {
     private String text;
-    private List<Photo> photos;
+    private List<Base64File> photos;
 }
